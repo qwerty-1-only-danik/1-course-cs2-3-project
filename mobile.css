@@ -1,0 +1,93 @@
+/*====moble version=======*/
+
+@media screen and (max-width: 768px) {
+
+    /*======header============*/
+
+    header {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    header h2 {
+        font-size: 28px;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*========home==========*/
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    #home img {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+    }
+
+    /*========expertise===========*/
+
+    .expertise-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .expertise-container article {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /*==========projects===========*/
+    #projects {
+        padding: 40px 20px;
+    }
+
+    #projects article {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 25px;
+    }
+
+    #projects article img {
+        height: 220px;
+    }
+
+    /*========reviews=============*/
+
+    #reviews {
+        padding: 50px 20px;
+    }
+
+    #reviews p {
+        font-size: 18px;
+    }
+
+    /*==========services=============*/
+
+    #services article {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 15px;
+    }
+
+    /*=============footer==========*/
+
+    footer h2{
+        font-size:32px;
+    }
+}
